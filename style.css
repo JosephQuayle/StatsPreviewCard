@@ -98,3 +98,110 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media only screen and (max-width: 770px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image {
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0rem;
+  }
+
+  .image-container {
+    order: -1;
+    height: 30vh;
+    margin-bottom: 0;
+  }
+
+  .content {
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    border-top-left-radius: 0rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+  .content h1 {
+    font-size: 2.5rem;
+  }
+
+  .content > p {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .numbers {
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+  }
+
+  .numbers p {
+    padding-bottom: 2rem;
+  }
+
+  .numbers1 {
+    padding-right: 0rem;
+  }
+  .numbers2 {
+    padding-right: 0rem;
+  }
+}
+
+@media only screen and (max-height: 812px) {
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content > p {
+    font-size: 1rem;
+  }
+
+  .numbers h2 {
+    font-size: 1.5rem;
+  }
+
+  .numbers p {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-height: 667px) {
+  .content h1 {
+    font-size: 1.8rem;
+  }
+
+  .content > p {
+    font-size: 0.8rem;
+  }
+
+  .numbers h2 {
+    font-size: 1.3rem;
+  }
+
+  .numbers p {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-height: 568px) {
+  .content h1 {
+    font-size: 1.4rem;
+  }
+
+  .content > p {
+    font-size: 0.6rem;
+  }
+
+  .numbers h2 {
+    font-size: 1.1rem;
+  }
+
+  .numbers p {
+    font-size: 0.7rem;
+  }
+}
