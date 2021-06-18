@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: rgb(28, 22, 46);
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 80vw;
+  max-width: 901px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  background: rgb(65, 51, 100);
+  width: 100%;
+  height: 50vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.content h1 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.content > p {
+  font-size: 1.5rem;
+  padding-bottom: 8rem;
+  font-weight: 50;
+  color: rgb(192, 192, 192);
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+}
+
+.numbers1 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 3rem;
+}
+
+.numbers2 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 3rem;
+}
+
+.numbers3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers h2 {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.numbers p {
+  font-size: 1.1rem;
+  color: rgb(192, 192, 192);
+}
+
+.image-container {
+  display: flex;
+  height: 50vh;
+  margin: auto;
+  width: 100%;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background: url(./img/table\ with\ overlay.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
